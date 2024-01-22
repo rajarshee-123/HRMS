@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.hrms.test.RosterManagementRegressionSuite" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-22T10:04:43" hostname="GLOCAL-HO-108" time="76.06">
+  <properties/>
+  <testcase name="verifyRosterManagement" classname="com.hrms.test.RosterManagementRegressionSuite" time="76.06"/>
+  <system-out><![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='modal-content modal-content-rgctad']//button[@type='button'][normalize-space()='Ã—']"}
+  (Session info: chrome=120.0.6099.225)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e8168514dd5b395d38a5090deb464fa4, findElement {using=xpath, value=//div[@class='modal-content modal-content-rgctad']//button[@type='button'][normalize-space()='Ã—']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.225, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\gloca\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57109}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57109/devtoo..., se:cdpVersion: 120.0.6099.225, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e8168514dd5b395d38a5090deb464fa4
+]]></system-out>
+  <system-err><![CDATA[Jan 22, 2024 3:34:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 120, so returning the closest version found: 117
+]]></system-err>
+</testsuite>

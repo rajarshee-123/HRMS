@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Nopcommerce Regression Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Nopcommerce DashBoard Regression Suite(failed)">
+    <classes>
+      <class name="com.hrms.test.DashboardRegressionSuite">
+        <methods>
+          <include name="verifycatalogoption"/>
+          <include name="searchbycompanynm"/>
+          <include name="verifyproductoption"/>
+          <include name="appLaunch"/>
+          <include name="verifycustomerroleaddtion"/>
+          <include name="verifycatagoryoption"/>
+          <include name="verifycustomerOptionExist"/>
+          <include name="verifypromotionoption"/>
+          <include name="addNewCoustomer"/>
+          <include name="searchFCustomer"/>
+          <include name="verifynewcategoryoptionsearch"/>
+          <include name="verifycustomerMoreOptionsExist"/>
+          <include name="searchbyEmailCustomer"/>
+          <include name="verifysystemoption"/>
+          <include name="searchLCustomer"/>
+          <include name="verifyconfigurationoption"/>
+          <include name="closeBrowser"/>
+          <include name="verifynewcategoryoption"/>
+          <include name="verifycustomerroleoptionavalability"/>
+          <include name="verifysalesoption"/>
+        </methods>
+      </class> <!-- com.hrms.test.DashboardRegressionSuite -->
+    </classes>
+  </test> <!-- Nopcommerce DashBoard Regression Suite(failed) -->
+</suite> <!-- Failed suite [Nopcommerce Regression Suite] -->

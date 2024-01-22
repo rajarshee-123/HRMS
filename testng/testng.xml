@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Nopcommerce Regression Suite">
+     
+   <test thread-count="5" name="LoginRegressionSuite" enabled="true">
+	  <classes>
+		  <class name="com.hrms.test.LoginRegressionSuite"/>
+	  </classes>
+  </test> <!-- Test -->
+ 
+   <test thread-count="5" name="DashboardRegressionSuite" enabled="true">
+	  <classes>
+		  <class name="com.hrms.test.DashboardRegressionSuite"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="EmployeeRegressionSuite" enabled="true">
+	  <classes>
+		  <class name="com.hrms.test.EmployeeRegressionSuite"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="LeaveRegressionSuite" enabled="true">
+	  <classes>
+		  <class name="com.hrms.test.LeaveRegressionSuite"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="LeaveManagementRegressionSuite" enabled="true">
+	  <classes>
+		  <class name="com.hrms.test.LeaveManagementRegressionSuite"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="InventoryManagementRegressionSuite" enabled="true">
+	  <classes>
+		  <class name="com.hrms.test.InventoryManagementRegressionSuite"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="RosterManagementRegressionSuite" enabled="true">
+	  <classes>
+		  <class name="com.hrms.test.RosterManagementRegressionSuite"/>
+	  </classes>
+  </test> <!-- Test -->
+   
+    <test thread-count="5" name="FaceMismatchRegressionSuite" enabled="true">
+	  <classes>
+		  <class name="com.hrms.test.FaceMismatchRegressionSuite"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="RegistrationRequestRegressionSuite" enabled="true">
+	  <classes>
+		  <class name="com.hrms.test.RegistrationRequestRegressionSuite"/>
+	  </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="MonthlyReportPageRegressionSuite" enabled="true">
+	  <classes>
+		  <class name="com.hrms.test.MonthlyReportPageRegressionSuite"/>
+	  </classes>
+  </test> <!-- Test -->
+</suite>
